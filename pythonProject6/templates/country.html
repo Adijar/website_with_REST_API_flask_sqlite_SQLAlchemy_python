@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>{{ offici }}</h1>
+<p>{{ weathe }} &degC, {{ capCity }}</p>
+<img src="https://openweathermap.org/img/w/{{ weathericon }}.png" alt="">
+<hr>
+<img src="{{ png }}" alt="">
+<hr>
+<p>Native Naming: {{ ofic_name }}</p>
+<p>Currencies: {{ curr }} '{{ symbol }}'</p>
+<p>Capital city: {{ capCity }}</p>
+<p>Region: {{ reg }} ({{ subr }})</p>
+<p>Languages: {{ languages }}</p>
+<p>Population: {{ population }}</p>
+<p>Area: {{ area }}</p>
+<hr size="4" color="gray" style="opacity:0.2">
+<form >
+ <input type="button" value="Go back" onclick="history.go(-1)">
+</form>
+</body>
+</html>
